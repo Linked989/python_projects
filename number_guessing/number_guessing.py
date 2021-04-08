@@ -1,6 +1,6 @@
 import random
 
-numbers = [x for x in range(101)] # Create a list of numbers
+numbers = [x for x in range(51)] # Create a list of numbers
 
 print("This is a game where the PC will choose a number and you'll have to guess it!")
 print("You will start with a score of '100' points and you'll lose '5' points everytime you guess wrong!")
@@ -29,7 +29,7 @@ def game():
             print(f"Final score: '{score}'")
             break
         elif user < num:
-            print(f"Higher! between")
+            print(f"Higher!")
         elif user > num:
             print(f"Lower!")
 

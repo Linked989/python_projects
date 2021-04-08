@@ -3,7 +3,7 @@ from time import sleep
 
 def info():
     print("==================================")
-    print("===== Dice Rolling Simulator =====")
+    print("===== Dices Rolling Simulator =====")
     print("==================================")
 
     print("[r] Roll the dice!")

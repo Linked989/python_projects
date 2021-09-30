@@ -1,5 +1,5 @@
 A tic tac toe game written in python.
-It needs to person to play it.
+It needs two people to play it.
 The game's board is mapped after the numpads.
 Pressing the 1,2,3,4 keys from the numpad, it will add the following:
 

@@ -77,7 +77,7 @@ class Movie:
         self.interact = self.conn.cursor()
 
         select_user = input("Find a movie: ")
-        # select = f"SELECT * FROM movies WHERE title='{select_user.title()}';"aaa
+        # select = f"SELECT * FROM movies WHERE title='{select_user.title()}';"
         # SELECT * FROM movies WHERE title LIKE '%{select_user.title()}%' OR title LIKE '%{INPUT}%'
         select = f"SELECT * FROM movies WHERE title LIKE '%{select_user.title()}%' OR release_year LIKE '%{select_user.title()}%' OR genre LIKE '%{select_user.title()}%' OR IMDB_rating LIKE '%{select_user.title()}%'"
 
